@@ -1,0 +1,28 @@
+@import '_mixins';
+@import './node_modules/mq-scss/mq';
+@import '_variables';
+@import '_animations';
+
+@import '_arrow';
+@import '_burger';
+@import 'blog-rev';
+@import '_info';
+@import '_wrap';
+@import 'modals';
+@import 'header';
+@import 'title-page';
+@import 'navbar';
+@import 'service';
+@import 'product';
+@import 'gallery';
+@import 'about-us';
+
+//@import 'main';
+@import 'footer';
+@import './node_modules/hamburgers/_sass/hamburgers/hamburgers.scss';
+@import './node_modules/owl.carousel/src/scss/owl.carousel.scss';
+@import './node_modules/owl.carousel/src/scss/owl.theme.default.scss';
+@import 'owl';
+@import '_responsive';
+@import 'catalog';
+@import 'news';

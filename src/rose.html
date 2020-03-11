@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <title>Главная страница</title>
+        {% include 'templates/head.html' %}
+    </head>
+    <body>
+
+        {% include 'templates/navbar.html' %}
+
+        <div class="header-block header-block--slider">
+
+            <div class="owl-carousel owl-theme">
+
+                <div class="item overlay">
+                    <img src="/img/tomat/slider/IMG_9204.jpg" alt="">
+                </div>
+
+                <div class="item overlay">
+                    <img src="/img/tomat/slider/IMG_9193.jpg" alt="">
+                </div>
+
+                <div class="item overlay">
+                    <img src="/img/tomat/slider/IMG_9218.jpg" alt="">
+                </div>
+
+                <div class="item overlay">
+                    <img src="/img/tomat/slider/home.jpg" alt="">
+                </div>
+
+            </div>
+
+            <script></script>
+
+            <div class="container">
+
+                <div class="header-block-rose">
+                    <div class="title header-block__title">
+                        <h3>Тепличный комплекс </h3>
+                        <h1>Greenhouse-Qaztomat</h1>
+                    </div>
+                    <p class="header-block__desc">
+            ТОО «Greenhouse-Qaztomat» является крупнейшим тепличным хозяйством Павлодарской области.
+            Представляет собой современный комплекс, оснащенный новейшим оборудованием и инновационными системами и технологиями в соответствии с европейскими стандартами.Проект реализован в партнерстве с известным мировым производителем Van der Hoeven Greenhousebuilders B.V., Нидерланды, входящим в тройку мировых производителей</p>
+
+                </div>
+
+                <div class="header-block__bottom">
+
+                    <div class="container">
+                        <div class="nav__wrapper">
+                            <div class="nav__left nav__left--slider">
+                                <div class="slider_nav">
+                                    <button class="am-prev arrow header-block__arrow">←</button>
+                                    <button class="am-next arrow header-block__arrow">→</button>
+                                    {# <button class="play arrow header-block__arrow">►</button>
+                                    <button class="stop arrow header-block__arrow">▄</button> #}
+                                </div>
+                                <a class="arrow header-block__arrow" id="scroll" href="#product">↓</a>
+                            </div>
+                            <div class="nav__right">
+                справки по телефонам: +7(7187)27-86-80 &nbsp +7(7187)27-85-06
+            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="wrapper-for-modal" id="example">
+            <div class="shadow-wrapper" id="shadow">
+                <div class="main">
+                    <section class="catalog__home">
+                        <div class="container">
+                            <div class="catalog__wrapp">
+                                <div class="row">
+
+                                    <div class="col col-6 catalog__text">
+                                        <h1 class="catalog__title">Роза Аваланж</h1>
+                                        <p>Роза чайно-гибридная Аваланж относится к сортам, предназначенным для срезки. Бутоны растения имеют довольно крупные размеры, которые иногда называют махровыми. Цвет лепестков — белый.</p>
+                                    </div>
+
+                                    <div class="col col-6"><img class="product" src="/img/rose/ava.jpg" alt=""></div>
+
+                                </div>
+
+                                <div class="row">
+                                    <div class="col col-6 catalog__text">
+                                        <h1 class="catalog__title">Пич Аваланш</h1>
+                                        <p>розы розовые Характеризуется как гибрид, вырастающий до 1 метра в высоту. При этом чистая длина стеблей, на которых образуются изящные бутоны, может достигать 60 см. Средней махровости цветки (до 25 лепестков) светло-абрикосового окраса классической формы на фоне матовой ярко-зеленой листвы буквально завораживают. Внешний вид растения в свое время вызвал бурю восторгов у критиков.</p>
+                                    </div>
+
+                                    <div class="col col-6"><img class="product" src="/img/rose/pich.jpg" alt=""></div>
+
+                                </div>
+
+                                <div class="row">
+                                    <div class="col col-6 catalog__text">
+                                        <h1 class="catalog__title">Розы Red Naomi</h1>
+                                        <p>Бутон темно-вишневый, с черными краями. Цветки бокаловидные, темно-красные, густо-махровые, 55 - 75 лепестков, с приятным сладким ароматом, в роспуске достигают 13 см. Чаще одиночные, редко до 3 штук в кистях. Кусты среднего размера (для юга - 100-130см). Побеги слабо-колючие. Листья темно-зеленые, матовые. Устойчивость к болезням средняя, морозостойкость средняя. Очень урожайный тепличный сорт, при недостатке света, как и большинство красных роз, имеет склонность темнеть. Из достоинств - приятный аромат, что достаточно редко встречается у срезочных роз. Несмотря на мнение, что запах сокращает розе жизнь в букете, срезка этого сорта достаточно долго сохраняет свежесть, 10-14 дней. Еще один немаловажный плюс: в летний(жаркий) период не мельчают бутоны.</p>
+                                    </div>
+
+                                    <div class="col col-6"><img class="product" src="/img/rose/naomi.jpg" alt=""></div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </section>
+                    <section id="contacs">
+                        {% include 'templates/footer.html' %}
+                    </section>
+                </div>
+
+            </div>
+        </div>
+    </body>
+
+</html>

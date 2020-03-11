@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <title>Главная страница</title>
+        {% include 'templates/head.html' %}
+    </head>
+    <body>
+
+        {% include 'templates/navbar.html' %}
+
+        <div class="header-block header-block--news">
+
+            <div class="container">
+
+                <div class="title header-block__title">
+                    <h1>Новости Компании</h1>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="wrapper-for-modal" id="example">
+            <div class="shadow-wrapper" id="shadow">
+                <div class="main">
+                    <section class="catalog__home">
+                        <div class="container">
+
+                            <div class="news__wrapp">
+                                <div class="row">
+                                    <div class="col col-6">
+                                        <div class="blog__image"><img src="img/blog_rev.jpg"></div>
+                                    </div>
+                                    <div class="col col-6">
+
+                                        <div class="blog__content">
+                                            <div class="blog__date">21.02.2020</div>
+                                            <div class="blog__title">
+                                                <h5>Заголовок новости</h5>
+                                            </div>
+                                            <div class="blog__text">
+                                                <p>20.11.2019г. Начались работы по постройке третьего модуля тепличного комплекса. Работы ведет генеральный подрядчик ТОО «KBI Energy». Сроки окончания строительства назначены на март 2020 года.</p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </section>
+                            <section id="contacs">
+                                {% include 'templates/footer.html' %}
+                            </section>
+                        </div>
+
+                    </div>
+                </div>
+            </body>
+
+        </html>

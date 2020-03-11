@@ -1,0 +1,17 @@
+.arrow {
+  width: 70px;
+  height: 70px;
+  font-size: 24px;
+  padding: 16px;
+  text-align: center;
+  color: #fff;
+  display: block;
+  transition: all 0.4s;
+  text-decoration: none;
+
+
+  &:hover {
+    text-decoration: none;
+    color: #fff;
+  }
+}

@@ -1,0 +1,15 @@
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.main {
+  flex: 1 0 auto;
+}
