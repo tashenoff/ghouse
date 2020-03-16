@@ -8,18 +8,63 @@
 
         {% include 'templates/navbar.html' %}
 
-        <div class="header-block header-block--about">
+        <div class="header-block header-block--slider">
 
-            <div class="container">
+            <div class="owl-carousel owl-theme">
 
-                <div class="title header-block__title">
-                    <h1>О компании</h1>
+                <div class="item overlay">
+                    <img src="/img/tomat/slider/IMG_9204.jpg" alt="">
                 </div>
-                <p class="header-block__desc">
-            Тепличный комплекс состоит из трех модулей общей площадью 21,5 га. На первых 5 га выращиваются розы, на 16 га – томаты. Теплица по розам введена в эксплуатацию в 2016 году, по томатам первый блок (5 га) в 2017 году, второй модуль (10 га) и рассадное отделение (1 га) в 2019 году. Оборудование теплицы голландского производства, шефмонтаж осуществлен под контролем голландской компании Ван дер Ховен.</p>
+
+                <div class="item overlay">
+                    <img src="/img/tomat/slider/IMG_9193.jpg" alt="">
+                </div>
+
+                <div class="item overlay">
+                    <img src="/img/tomat/slider/IMG_9218.jpg" alt="">
+                </div>
+
+                <div class="item overlay">
+                    <img src="/img/tomat/slider/home.jpg" alt="">
+                </div>
 
             </div>
 
+            <script></script>
+
+            <div class="container">
+
+                <div class="header-block-rose">
+                    <div class="title header-block__title">
+
+                        <h1>О нас</h1>
+                    </div>
+                    <p class="header-block__desc">
+            ТОО «Greenhouse-Qaztomat» является крупнейшим тепличным хозяйством Павлодарской области.
+            Представляет собой современный комплекс, оснащенный новейшим оборудованием и инновационными системами и технологиями в соответствии с европейскими стандартами.Проект реализован в партнерстве с известным мировым производителем Van der Hoeven Greenhousebuilders B.V., Нидерланды, входящим в тройку мировых производителей</p>
+
+                </div>
+
+                <div class="header-block__bottom">
+
+                    <div class="container">
+                        <div class="nav__wrapper">
+                            <div class="nav__left nav__left--slider">
+                                <div class="slider_nav">
+                                    <button class="am-prev arrow header-block__arrow">←</button>
+                                    <button class="am-next arrow header-block__arrow">→</button>
+                                    {# <button class="play arrow header-block__arrow">►</button>
+                                    <button class="stop arrow header-block__arrow">▄</button> #}
+                                </div>
+                                <a class="arrow header-block__arrow" id="scroll" href="#product">↓</a>
+                            </div>
+                            <div class="nav__right">
+                справки по телефонам: +7(7187)27-86-80 &nbsp +7(7187)27-85-06
+            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <div class="wrapper-for-modal" id="example">
